@@ -1,0 +1,34 @@
+
+npm install express body-parser cors
+    Without Express, you would need to manually write all the HTTP handling logic (like routing and middleware),
+     which would be tedious and error-prone.
+     Express abstracts these tasks and allows you to focus on your application's logic.
+
+Express: This is like a tool that makes it easier to create web servers.
+Body-parser: This helps us understand data sent by users (like forms or JSON).
+CORS: This allows different websites (like one hosted on a different address) to safely talk to our server.
+Cross-Origin Resource Sharing
+
+
+In this case, spaces are encoded as %20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To test fetching all articles, set the request method to GET and the URL to http://localhost:5000/api/articles. Click Send.
+To test searching, create a new GET request with the URL: http://localhost:5000/api/search?q=ai. This will filter articles with "ai" in the title or content.
